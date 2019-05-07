@@ -14,65 +14,6 @@
 <title>&#39318;&#39029;</title>
 </head>
 <body>
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="navbar-header">
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-         <span class="sr-only">toggle navigation</span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-       </button>
-       <h3>&#32463;&#20856;&#25991;&#31456;</h3>
-  </div>
-  <div class="collapse navbar-collapse navbar-responsive-collapse">
-    	<ul class="nav navbar-nav">
-      	    <li><a href="__CONTROLLER__/index">&#20027;&#39029;</a></li>
-      	    <li><a href="__CONTROLLER__/orderByDate">&#25353;&#21457;&#24067;&#26102;&#38388;&#25490;&#24207;</a></li>
-      	    <li><a href="__CONTROLLER__/orderByN">&#25353;&#27983;&#35272;&#37327;&#25490;&#24207;</a></li>
-      	    <li><a href="#" id="add">&#21457;&#34920;&#26032;&#25991;&#31456;</a></li>
-      	    <li><a href="__CONTROLLER__/we">&#20851;&#20110;&#25105;&#20204;</a></li>
-	</ul>
-  </div>
-</div>
-<div class="modal" id="mymodal" tabindex="-1">
-    <div class="modal-dialog">
-    	<div class="modal-content">
-            <div class="modal-header">
-		<h5 class="modal-title">&#30331;&#24405;</h5>
-	    </div>
-	    <div class="modal-body">
-                    <div class="form-group">
-                        <label for="exampleinputemail1">&#37038;&#31665;&#65306;</label>
-                        <input type="email" class="form-control" id="exampleinputemail1" placeholder="&#35831;&#36755;&#20837;&#24744;&#30340;&#36134;&#21495;"/>
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleinputpassword1">&#23494;&#30721;</label>
-                        <input type="password" class="form-control" id="exampleinputpassword1" placeholder="&#35831;&#36755;&#20837;&#24744;&#30340;&#23494;&#30721;"/>
-                    </div>
-                    <div class="checkbox">
-                        <label>
-                            <input type="checkbox"> &#35760;&#20303;&#23494;&#30721;
-                        </label>
-                     </div>
-	    </div>
-	    <div class="modal-footer">
-		<button type="button" class="btn btn-default" data-dismiss="modal">&#21462;&#28040;</button>
-		<button type="button" class="btn btn-primary" id="login">&#30331;&#24405;</button>
-	    </div>
-	</div>
-    </div>
-</div>
-
-<div class="list-group">
-    <volist name="list" id="vo" empty="$empty">
-        <a href="__CONTROLLER__/topic/id/{$vo.id}" class="list-group-item"><span class="badge">{$vo.n}</span><font size="4" color="blue">{$i}. {$vo.bt}</font></a>
-    </volist>
-</div>
-
-<div class="footer">
-    <input type="text" class="search" id="myinput" placeholder="&#36755;&#20837;&#20851;&#38190;&#23383;"/>
-    <input type="button" value="&#25628;&#32034;" id="btn" />
-</div>
 
 </body>
 </html>
