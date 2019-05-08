@@ -11,6 +11,12 @@ body
   right: 0px;
   top: 0px;
   z-index: 1030;
+  height: 35px;  
+  text-align:center;
+  line-height:35px;  
+  border-radius:10px;
+  border:2px solid #C5c5c5;
+  background-color:#FFFFFF
 }
 .footer
 {
