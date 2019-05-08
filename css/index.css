@@ -1,7 +1,7 @@
 body 
 {
   padding-top: 50px;
-  background-color: green;
+  background-color: #FFFFFF;
   padding-bottom: 33px;
 }
 .header 
@@ -15,7 +15,7 @@ body
   text-align:center;
   line-height:30px;  
   border:0px #C5c5c5;
-  background-color:#FFFFFF
+  background-color:blue;
 }
 .footer
 {
