@@ -27,32 +27,3 @@ body
   border:2px solid #C5c5c5;
   background-color:#FFFFFF;
 }
-#mymodal
-{
-  position:fixed;
-  top:20%
-}
-.search
-{ 
-  position: relative;  
-  left: 5px;
-  bottom: 2px;
-  width:150px;
-  height:28px;
-  border-radius:5px;
-  border:none;
-  outline:none;
-  line-height:28px;
-}
-#btn
-{
-  position: relative;  
-  top:0px;
-  left:5px;
-  height:31px;
-  color:#FFF";
-  border:2px solid #C5c5c5;
-  border-radius:5px;
-  text-align:center;
-  line-height:28px;
-}
