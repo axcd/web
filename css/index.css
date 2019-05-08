@@ -1,8 +1,11 @@
 body 
 {
   padding-top: 50px;
-  background-color: #C5C5C5;
   padding-bottom: 33px;
+  background-color: #C5C5C5;
+  background-image:url('./image/1.gif');
+  background-repeat:no-repeat;
+  background-position:left;
 }
 .header 
 {
