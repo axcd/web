@@ -13,9 +13,9 @@ body
   z-index: 1030;
   height: 35px;  
   text-align:center;
-  line-height:30px;  
-  border:0px #C5c5c5;
-  background-color:blue;
+  line-height:30px;
+  border:2px solid #C5C5C5;
+  background-color:#C0C1C3;
 }
 .footer
 {
