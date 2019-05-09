@@ -10,7 +10,7 @@ div.img
 div.img img
   {
   display:inline;
-  margin:3px;
+  margin:0 auto;
   border:1px solid #bebebe;
   }
 div.img a:hover img
