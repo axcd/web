@@ -9,9 +9,15 @@ div.img
   }
 div.img img
   {
+  width:150px;
+  height:150px;
   display:inline;
   margin:3px;
   border:1px solid #bebebe;
+  }
+a
+  {
+   
   }
 div.img a:hover img
   {
