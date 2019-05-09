@@ -1,6 +1,6 @@
 div.img
   {
-  margin:3px;
+  margin:0px auto;
   border:1px solid #bebebe;
   height:auto;
   width:auto;
@@ -10,7 +10,7 @@ div.img
 div.img img
   {
   display:inline;
-  margin:0 auto;
+  margin:3px;
   border:1px solid #bebebe;
   }
 div.img a:hover img
