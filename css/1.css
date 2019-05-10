@@ -5,6 +5,10 @@ body
   background-attachment:fixed;
   background-position:auto;
 }
+h3
+{
+  text-align:center;
+}
 .heade
 {
   position: fixed;
