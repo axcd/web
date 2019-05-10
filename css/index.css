@@ -1,3 +1,11 @@
+body 
+{
+  padding-top: 50px;
+  padding-bottom: 33px;
+  background-color: #C5C5C5;
+  background-image:url('../image/1.jpg');
+}
+
 div.img
   {
   border:1px solid #bebebe;
@@ -7,6 +15,7 @@ div.img
   float:left;
   text-align:center;
   }
+
 div.img img
   {
   width:150px;
@@ -15,14 +24,17 @@ div.img img
   margin:3px;
   border:1px solid #bebebe;
   }
+
 a
   {
    
   }
+
 div.img a:hover img
   {
   border:1px solid #333333;
   }
+
 div.desc
   {
   text-align:center;
