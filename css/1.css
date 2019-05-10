@@ -9,30 +9,3 @@ h3
 {
   text-align:center;
 }
-.heade
-{
-  position: fixed;
-  left: 0px;
-  right: 0px;
-  top: 0px;
-  z-index: 1030;
-  height: 50px;  
-  text-align:center;
-  line-height:50px;
-  background-color: #E00000;
-}
-.foote
-{
-  position: fixed;
-  left: 70px;
-  right: 50px;
-  bottom: 10px;
-  z-index: 1030;
-  width: 210px;
-  height: 35px;  
-  text-align:center;
-  line-height:35px;  
-  border-radius:10px;
-  border:2px solid #C5C5C5;
-  background-color:#FFFFFF;
-}
