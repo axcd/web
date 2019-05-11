@@ -6,6 +6,7 @@ body
 
 #div
   { 
+  height:auto;
   border:2px solid red;
   }
 
