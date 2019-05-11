@@ -3,10 +3,8 @@ body
   background-color: #FEEEEF;
 }
 
-#div
+br
   { 
-  height:auto;
-  width:auto;
   border:2px solid red;
   }
 
@@ -15,7 +13,6 @@ div.img
   border:1px solid #bebebe;
   height:auto;
   width:auto;
-  display:inline;
   margin:3px; 
   float:left;
   text-align:center;
