@@ -6,11 +6,6 @@ body
 
 #div
   { 
-  display:-moz-box;
-  display:-webkit-box;
-  display:box;
-  width:300px;
-  height:400px;
   border:2px solid red;
   }
 
