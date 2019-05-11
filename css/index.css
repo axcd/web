@@ -9,7 +9,7 @@ div.img
   height:auto;
   width:auto;
   margin:3px;  
-  display:inline;
+  float:center;
   text-align:center;
   }
 
