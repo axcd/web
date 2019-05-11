@@ -5,8 +5,13 @@ body
 
 #div
   {
-  border:2px solid #bebebe;
   text-align:center;
+  display:-moz-box;
+  display:-webkit-box;
+  display:box;
+  width:200px;
+  height:100px;
+  border:2px solid red;
   }
 
 div.img
@@ -23,7 +28,7 @@ div.img img
   width:130px;
   height:130px;
   display:inline;
-  margin:5px;
+  margin:3px;
   float:left;
   border:1px solid #bebebe;
   }
