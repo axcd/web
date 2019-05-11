@@ -4,6 +4,12 @@ body
   float:center;
 }
 
+#mp
+  {
+  border:1px solid red;
+  float:center;
+  }
+
 div.img
   {
   border:1px solid #bebebe;
