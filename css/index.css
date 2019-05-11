@@ -14,8 +14,7 @@ div.img
   border:1px solid #bebebe;
   height:auto;
   width:auto;
-  margin:auto;
-  float:left;
+  margin:auto; 
   text-align:center;
   }
 
