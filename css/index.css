@@ -13,8 +13,8 @@ div.img
   border:1px solid #bebebe;
   height:auto;
   width:auto;
-  margin:3px; 
-  float:left;
+  margin:3px;  
+  display:inline;
   text-align:center;
   }
 
