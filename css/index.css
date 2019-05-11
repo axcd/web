@@ -1,6 +1,7 @@
 body 
 {
-  background-color: #FEEEEF;
+  background-color: #FEEEEF; 
+  float:center;
 }
 
 div.img
@@ -8,8 +9,7 @@ div.img
   border:1px solid #bebebe;
   height:auto;
   width:auto;
-  margin:3px;  
-  float:center;
+  margin:3px; 
   text-align:center;
   }
 
