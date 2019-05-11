@@ -1,14 +1,12 @@
 body 
 {
   background-color: #FEEEEF;
-  text-align:center;
 }
 
 #div
   { 
   height:auto;
   width:auto;
-  display:inline;
   border:2px solid red;
   }
 
