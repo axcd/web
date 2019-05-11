@@ -6,8 +6,10 @@ body
 
 #div
   { 
-  height:220px;
-  width:100%;
+  height:auto;
+  width:auto;
+  display:inline;
+  margin:3px; 
   border:2px solid red;
   text-align:center;
   }
