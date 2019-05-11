@@ -20,6 +20,7 @@ div.img
   height:auto;
   width:auto;
   margin:auto; 
+  float:left;
   text-align:center;
   }
 
@@ -29,7 +30,6 @@ div.img img
   height:130px;
   display:inline;
   margin:3px;
-  float:left;
   border:1px solid #bebebe;
   }
 
