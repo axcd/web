@@ -9,7 +9,7 @@ body
   text-align:center;
   }
 
-div.img
+div.img1
   {
   border:1px solid #bebebe;
   height:auto;
@@ -18,7 +18,7 @@ div.img
   text-align:center;
   }
 
-div.img img
+div.img img1
   {
   width:150px;
   height:150px;
@@ -32,12 +32,12 @@ a
    
   }
 
-div.img a:hover img
+div.img a:hover img1
   {
   border:0px solid #333333;
   }
 
-div.desc
+div.desc1
   {
   text-align:center;
   font-weight:normal;
