@@ -1,12 +1,11 @@
 body 
 {
   background-color: #FEEEEF; 
-  float:center;
 }
 
 #mp
   {
-  border:1px solid red;
+  border:1px solid green;
   float:center;
   }
 
