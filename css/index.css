@@ -16,6 +16,7 @@ div.img
   border:1px solid #bebebe;
   height:auto;
   width:auto;
+  display:inline;
   margin:3px; 
   float:left;
   text-align:center;
@@ -23,8 +24,8 @@ div.img
 
 div.img img
   {
-  width:130px;
-  height:130px;
+  width:150px;
+  height:150px;
   display:inline;
   margin:3px;
   border:1px solid #bebebe;
@@ -35,9 +36,9 @@ a
    
   }
 
-div.img a:hover img1
+div.img a:hover img
   {
-  border:0px solid #333333;
+  border:1px solid #333333;
   }
 
 div.desc
