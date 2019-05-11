@@ -6,9 +6,10 @@ body
 
 #div
   { 
-  height:200px;
+  height:220px;
   width:100%;
   border:2px solid red;
+  text-align:center;
   }
 
 div.img
