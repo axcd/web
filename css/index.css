@@ -11,7 +11,7 @@ body
 
 div.img
   {
-  border:0px solid #bebebe;
+  border:1px solid #bebebe;
   height:auto;
   width:auto;
   margin:auto;
@@ -24,7 +24,7 @@ div.img img
   width:150px;
   height:150px;
   display:inline;
-  margin:3px;
+  margin:5px;
   border:0px solid #bebebe;
   }
 
