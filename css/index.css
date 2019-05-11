@@ -3,11 +3,6 @@ body
   background-color: #FEEEEF;
 }
 
-br
-  { 
-  border:2px solid red;
-  }
-
 div.img
   {
   border:1px solid #bebebe;
@@ -25,11 +20,6 @@ div.img img
   display:inline;
   margin:3px;
   border:1px solid #bebebe;
-  }
-
-a
-  {
-   
   }
 
 div.img a:hover img
