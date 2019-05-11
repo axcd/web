@@ -24,6 +24,7 @@ div.img img
   height:130px;
   display:inline;
   margin:5px;
+  float:left;
   border:1px solid #bebebe;
   }
 
