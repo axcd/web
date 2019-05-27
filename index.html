@@ -1,79 +1,11 @@
-<!doctype html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
-<meta name="apple-mobile-web-app-capable" content="yes"/>
-<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
-<meta name="format-detection" content="telephone=no"/>
-<meta charset="utf-8"/>
-<link rel="stylesheet" href="./css/index.css"/>
-<script src="./js/index.js"></script>
-</head>
-<title>人生那点事儿</title>
-<body>
-<hr/>
-<div id="mp">
-<div class="img">
-  <a target="_blank" href="https://axcd.github.io/web/1">
-  <img src="./image/001.jpg" alt="图片">
-  </a>
-  <div class="desc">芝麻开门</div>
-</div>
+var str = navigator.userAgent;
+var re = new RegExp("Mobile");
 
-<div class="img">
-  <a target="_blank" href="https://axcd.github.io/web/2">
-  <img src="./image/2.jpg" alt="图片">
-  </a>
-  <div class="desc">跳高者</div>
-</div>
-</div>
-<div id="mp">
-<div class="img">
-  <a target="_blank" href="https://axcd.github.io/web/3">
-  <img src="./image/3.jpg" alt="图片">
-  </a>
-  <div class="desc">皇帝的新装</div>
-</div>
+var result = re.test(str);
 
-<div class="img">
-  <a target="_blank" href="https://www.kugushi.com/m/view.php?aid=116">
-  <img src="./image/4.jpg" alt="图片">
-  </a>
-  <div class="desc">白雪公主</div>
-</div>
-</div>
-<div id="mp">
-<div class="img">
-  <a target="_blank" href="https://www.kugushi.com/m/view.php?aid=184">
-  <img src="./image/5.jpg" alt="图片">
-  </a>
-  <div class="desc">灰姑娘</div>
-</div>
+if(result){
+  location.href="https://axcd.github.io/web/";
+}else{
+  document.write("<h1>这是一个手机网页</h1>");
 
-<div class="img">
-  <a target="_blank" href="https://www.kugushi.com/m/view.php?aid=9281">
-  <img src="./image/6.jpg" alt="图片">
-  </a>
-  <div class="desc">海的女儿</div>
-</div>
-</div>
-<div id="mp">
-<div class="img">
-  <a target="_blank" href="https://www.kugushi.com/m/view.php?aid=189">
-  <img src="./image/7.jpg" alt="图片">
-  </a>
-  <div class="desc">小红帽</div>
-</div>
-
-<div class="img">
-  <a target="_blank" href="https://www.kugushi.com/m/view.php?aid=216">
-  <img src="./image/8.jpg" alt="图片">
-  </a>
-  <div class="desc">青蛙王子</div>
-</div>
-</div>
-
-<hr/>
-</body>
-</html>
-
+}
