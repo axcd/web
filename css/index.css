@@ -10,19 +10,20 @@ hr
   }
 
 div.row
-  {
+{
   margin: 2px auto;
-  }
+  border:2px solid green;
+}
 
 div.img
-  {
+{
   border:1px solid #bebebe;
   height:auto;
   width:auto;
   margin:3px; 
   float:left;
   text-align:center;
-  }
+}
 
 div.img img
   {
