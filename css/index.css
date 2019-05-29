@@ -1,5 +1,6 @@
 body 
 {
+  text-align:center;
   background-color: #FEEEEF; 
 }
 
@@ -8,9 +9,9 @@ hr
   border:2px solid green;
   }
 
-#mp
+div.row
   {
-  float:center;
+  margin: 5px auto;
   }
 
 div.img
