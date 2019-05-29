@@ -7,7 +7,7 @@ body
 div.row
 {
   margin: 2px auto;
-  height: 208px;
+  height: 213px;
   width: 342px;
   border: 0px solid #bebebe;
 }
@@ -24,8 +24,8 @@ div.img
 
 div.img img
 {
-  width: 150px;
-  height: 150px;
+  width: 155px;
+  height: 155px;
   display: inline;
   margin: 3px;
   border: 1px solid green;
@@ -40,7 +40,7 @@ div.desc
 {
   text-align: center;
   font-weight: normal;
-  width: 150px;
+  width: 155px;
   font-size: 12px;
   margin: 10px auto;
 }
