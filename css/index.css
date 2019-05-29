@@ -11,10 +11,10 @@ hr
 
 div.row
 {
-  margin: 2px auto;
-  height: 200;
-  width: 340px;
-  border:2px solid green;
+  margin: 3px auto;
+  height: 190px;
+  width: 320px;
+  border: 1px solid green;
 }
 
 div.img
