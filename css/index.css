@@ -13,7 +13,7 @@ div.row
 {
   margin: 3px auto;
   height: 210px;
-  width: 320px;
+  width: 332px;
   border: 1px solid green;
 }
 
@@ -29,8 +29,8 @@ div.img
 
 div.img img
 {
-  width:140px;
-  height:140px;
+  width:150px;
+  height:150px;
   display:inline;
   margin:3px;
   border:1px solid #bebebe;
@@ -45,7 +45,7 @@ div.desc
 {
   text-align:center;
   font-weight:normal;
-  width:140px;
+  width:150px;
   font-size:12px;
   margin:5px auto;
 }
