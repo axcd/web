@@ -4,14 +4,9 @@ body
   background-color: #FEEEEF; 
 }
 
-hr
-{
-  border: 2px solid green;
-}
-
 div.row
 {
-  margin: 0px auto;
+  margin: 2px auto;
   height: 210px;
   width: 332px;
   border: 1px solid green;
