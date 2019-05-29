@@ -12,6 +12,8 @@ hr
 div.row
 {
   margin: 2px auto;
+  height:auto;
+  width:auto;
   border:2px solid green;
 }
 
