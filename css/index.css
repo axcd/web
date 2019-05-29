@@ -9,12 +9,12 @@ div.row
   margin: 2px auto;
   height: 208px;
   width: 332px;
-  border: 1px solid green;
+  border: 1px solid #bebebe;
 }
 
 div.img
 {
-  border: 1px solid #bebebe;
+  border: 1px solid green;
   height: auto;
   width: auto;
   margin: 3px; 
