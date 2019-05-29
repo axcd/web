@@ -14,7 +14,7 @@ div.row
 
 div.img
 {
-  border: 1px solid green;
+  border: 1px solid #bebebe;
   height: auto;
   width: auto;
   margin: 3px; 
@@ -28,7 +28,7 @@ div.img img
   height: 150px;
   display: inline;
   margin: 3px;
-  border: 1px solid #bebebe;
+  border: 1px solid green;
 }
 
 div.img a:hover img
