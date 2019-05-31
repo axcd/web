@@ -6,7 +6,7 @@ if(!result){
 };
 
 x = document.getElementsByTagName('body')[0];
-window.alert(x.width);
+window.alert(x);
 x.clientWidth = screen.width+"px";
 x.clientHeight = screen.height+"px";
 
