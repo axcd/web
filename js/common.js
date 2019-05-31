@@ -8,9 +8,10 @@ if(!result){
 function load(){
 
   x = document.getElementsByTagName('body')[0];
-  x.clientWidth = screen.width+"px";
+  x.clientWidth = screen.width;
   x.clientHeight = screen.height+"px";
   window.alert(document.body);
   window.alert(123);
+  window.alert(x.clientWidth);
   window.alert(x.clientHeight+"px");
 }
