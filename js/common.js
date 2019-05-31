@@ -6,8 +6,8 @@ if(!result){
 };
 
 x = document.getElementsByTagName('body')[0];
-window.alert(x.width);
-document.body.clientWidth = screen.width+"px";
-document.body.clientHeight = screen.height+"px";
+window.alert(x.clientWidth);
+x.clientWidth = screen.width+"px";
+x.clientHeight = screen.height+"px";
 
-window.alert(document.body.clientWidth+"px");
+window.alert(x.clientHeight+"px");
