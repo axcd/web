@@ -7,11 +7,11 @@ if(!result){
 
 function load(){
 
-  document.body.clientWidth = screen.width-4;
-  document.body.clientHeight = screen.height;
+  document.body.style.width = screen.width;
+  document.body.style.height = screen.height;
 
-  window.alert(document.body.clientWidth);
+  window.alert(document.body.style.width);
   window.alert(document.body.clientHeight);
-  window.alert(screen.height);
+  window.alert(screen.width);
 
 }
