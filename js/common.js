@@ -5,6 +5,7 @@ if(!result){
   location.href="https://axcd.github.io/web/403";
 }
 
+alert("=");
 
 document.body.width=screen.width;
 document.body.height=screen.height;
