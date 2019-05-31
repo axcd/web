@@ -4,8 +4,8 @@ var result = /(ipod|ipad|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|sym
 if(!result){
   location.href="https://axcd.github.io/web/403";
 };
-window.alert(screen.width);
-document.body.width = screen.width;
-document.body.height = screen.height;
+window.alert(document.body.clientWidth);
+document.body.clientWidth = screen.width;
+document.body.clientHeight = screen.height;
 
 window.alert(document.body.height);
