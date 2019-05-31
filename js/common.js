@@ -7,7 +7,7 @@ if(!result){
 
 function load(){
 
-  document.body.clientWidth = screen.width;
+  document.body.clientWidth = screen.width-4;
   document.body.clientHeight = screen.height;
 
   window.alert(document.body.clientWidth);
