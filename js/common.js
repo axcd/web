@@ -9,8 +9,8 @@ function load(){
 
   var x = document.getElementById("d");
 
-  x.style.width = screen.width;
-  x.style.height = screen.height;
-  window.alert(screen.availHeight);
+  x.style.width = screen.availWidth;
+  x.style.height = screen.availHeight;
+  //window.alert(screen.availHeight);
 
 }
