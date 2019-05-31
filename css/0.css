@@ -3,7 +3,7 @@ body
   background-image:url('../image/0.jpg');
   background-repeat:no-repeat;
   background-attachment:fixed;
-  background-size: 100% 640px; 
+  background-size: 100% 100%; 
 }
 h3
 {
