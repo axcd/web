@@ -3,7 +3,7 @@ var result = /(ipod|ipad|iphone|android|coolpad|mmp|smartphone|midp|wap|xoom|sym
 
 if(!result){
   location.href="https://axcd.github.io/web/403";
-}
+};
 
 document.body.width=screen.width;
 document.body.height=screen.height;
