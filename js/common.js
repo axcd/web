@@ -11,5 +11,6 @@ function load(){
   x.clientWidth = screen.width+"px";
   x.clientHeight = screen.height+"px";
   window.alert(document.body);
+  window.alert(123);
   window.alert(x.clientHeight+"px");
 }
