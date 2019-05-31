@@ -11,6 +11,6 @@ function load(){
 
   x.style.width = screen.availWidth;
   x.style.height = screen.availHeight;
-  //window.alert(screen.availHeight);
+  window.alert(document.body.style.width);
 
 }
