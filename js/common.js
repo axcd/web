@@ -8,4 +8,3 @@ if(!result){
 
 document.body.width = screen.width;
 document.body.height = screen.height;
-window.alert(document.body.height);
