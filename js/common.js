@@ -12,5 +12,6 @@ function load(){
 
   window.alert(document.body.clientWidth);
   window.alert(document.body.clientHeight);
+  window.alert(screen.height);
 
 }
