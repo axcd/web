@@ -8,9 +8,9 @@ if(!result){
 function load(){
 
   document.body.clientWidth = screen.width;
-  document.body.style.height = 600px;
+  document.body.clientHeight = screen.height;
 
   window.alert(document.body.clientWidth);
-  window.alert(document.body.style.height);
+  window.alert(document.body.clientHeight);
 
 }
