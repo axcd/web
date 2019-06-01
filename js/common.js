@@ -16,7 +16,7 @@ function loadLayout(){
  
   var rows = document.getElementsByClassName("row");
   var rowX = screen.availWidth-10;
-  var rowY = (screen.availWidth-10)/2+12;
+  var rowY = (screen.availWidth-10)/2+26;
   window.alert(rowX);
   window.alert(rowY);
 
