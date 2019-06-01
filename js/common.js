@@ -23,7 +23,7 @@ function loadLayout(){
     rows[i].style.height = rowY + "px";
   }
 
-  var imgs = document.getElementsByClassName("img");
+  var imgs = document.getElementsByTagName("img");
   var imgX = (screen.availWidth-10)/2-20;
   var imgY = (screen.availWidth-10)/2-20;
 
