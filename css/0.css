@@ -1,8 +1,9 @@
 
 #d
-{
-  height:640px;
+{ 
   position: absolute;
+  left: 0px;
+  top: 0px;
   overflow-y: scroll;
   background-image:url('../image/0.jpg');
   background-repeat:no-repeat;
