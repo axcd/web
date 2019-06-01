@@ -17,14 +17,19 @@ function load1(){
   var rows = document.getElementsByClassName("row");
   var rowX = screen.availWidth-10;
   var rowY = (screen.availWidth-10)/2-20;
+
   for (i = 0; i < rows.lenth; i++) {
-    row.style.width = rowX + "px";
-    row.style.height = rowY + "px";
+    rows[i].style.width = rowX + "px";
+    rows[i].style.height = rowY + "px";
   }
-  var img = document.getElementsByClassName("img");
+
+  var imgs = document.getElementsByClassName("img");
   var imgX = (screen.availWidth-10)/2-20;
   var imgY = (screen.availWidth-10)/2-20;
-  img.style.width = imgX + "px";
-  img.style.height = imgY + "px";
+
+  for (i = 0; i < imgs.length; i++) {
+    imgs[i].style.width = imgX + "px";
+    imgs[i].style.height = imgY + "px";
+  }
 
 }
