@@ -11,3 +11,12 @@ function load(){
   document.body.style.height = screen.availHeight + "px";
   
 }
+
+function load1(){
+ 
+  var x = screen.availWidth/2-12;
+  var y = x;
+  o.style.width = x + "px";
+  o.style.height = y + "px";
+
+}
