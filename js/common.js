@@ -14,6 +14,7 @@ function load(){
 
 function load1(){
  
+  var o = document.getElementsByClassName("");
   var x = screen.availWidth/2-12;
   var y = x;
   o.style.width = x + "px";
