@@ -2,8 +2,7 @@
 #d
 {
   position: absolute;
-  left: 0px;
-  top: 0px;
+  overflow-style: scrollbar;
   background-image:url('../image/0.jpg');
   background-repeat:no-repeat;
   background-attachment:fixed;
