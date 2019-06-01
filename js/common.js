@@ -7,7 +7,7 @@ if(!result){
 
 function load(){
 
-  document.body.style.width = (screen.availWidth) + "px";
+  document.body.style.width = (screen.availWidth-10) + "px";
   document.body.style.height = (screen.availHeight-50) + "px";
   
 }
