@@ -17,6 +17,8 @@ function loadLayout(){
   var rows = document.getElementsByClassName("row");
   var rowX = screen.availWidth-10;
   var rowY = (screen.availWidth-10)/2+12;
+  window.alert(rowX);
+  window.alert(rowY);
 
   for (i = 0; i < rows.lenth; i++) {
     rows[i].style.width = rowX + "px";
@@ -26,6 +28,8 @@ function loadLayout(){
   var imgs = document.getElementsByTagName("img");
   var imgX = (screen.availWidth-10)/2-20;
   var imgY = (screen.availWidth-10)/2-20;
+  window.alert(imgX);
+  window.alert(imgY);
 
   for (i = 0; i < imgs.length; i++) {
     imgs[i].style.width = imgX + "px";
