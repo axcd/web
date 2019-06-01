@@ -9,11 +9,11 @@ function load(){
 
   var x = document.getElementById("d");
 
-  window.alert(x.style.width);
-  window.alert(x.style.height);
+  //window.alert(x.style.width);
+  //window.alert(x.style.height);
 
   x.style.width = screen.availWidth + "px";
-  x.style.height = screen.availHeight;
+  x.style.height = screen.availHeight + "px";
 
   window.alert(x.style.width);
   window.alert(x.style.height);
