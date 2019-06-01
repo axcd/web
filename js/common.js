@@ -16,7 +16,7 @@ function loadLayout(){
  
   var rows = document.getElementsByClassName("row");
   var rowX = screen.availWidth-10;
-  var rowY = (screen.availWidth-10)/2-20;
+  var rowY = (screen.availWidth-10)/2+12;
 
   for (i = 0; i < rows.lenth; i++) {
     rows[i].style.width = rowX + "px";
