@@ -1,7 +1,7 @@
 
 body
 { 
-  text-align:center;
+  margin: 5px auto;
   background-image:url('../image/0003.jpg');
   background-repeat:no-repeat;
   background-attachment:fixed;
