@@ -7,20 +7,7 @@ if(!result){
 
 function load(){
 
-  var x = document.getElementById("d");
-
-  window.outerwidth = screen.availWidth + "px";
-  window.outerheight = screen.availHeight + "px";
-
-  //document.body.style.width = screen.availWidth + "px";
-  //document.body.style.height = screen.availHeight + "px";
-  //window.alert(x.style.width);
-  //window.alert(x.style.height);
-
-  //x.style.width = screen.availWidth + "px";
-  //x.style.height = screen.availHeight + "px";
-
-  window.alert(window.outerheight);
-  //window.alert(x.style.height);
-
+  document.body.style.width = screen.availWidth + "px";
+  document.body.style.height = screen.availHeight + "px";
+  
 }
