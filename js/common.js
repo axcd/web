@@ -12,7 +12,7 @@ function load(){
   window.alert(x.style.width);
   window.alert(x.style.height);
 
-  x.style.width = screen.availWidth;
+  x.style.width = screen.availWidth + "px";
   x.style.height = screen.availHeight;
 
   window.alert(x.style.width);
