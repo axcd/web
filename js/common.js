@@ -12,7 +12,7 @@ function load(){
   
 }
 
-function load1(){
+function loadLayout(){
  
   var rows = document.getElementsByClassName("row");
   var rowX = screen.availWidth-10;
