@@ -6,7 +6,7 @@ body
 
 div.row
 {
-  margin: 2px auto;
+  margin: 2px 5px;
   height: 213px;
   width: 342px;
   border: 0px solid #bebebe;
@@ -17,7 +17,7 @@ div.img
   border: 1px solid #bebebe;
   height: auto;
   width: auto;
-  margin: 3px; 
+  margin: 5px; 
   float: left;
   text-align: center;
 }
