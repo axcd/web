@@ -1,16 +1,4 @@
 
-#d
-{ 
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  overflow-y: scroll;
-  background-image:url('../image/0.jpg');
-  background-repeat:no-repeat;
-  background-attachment:fixed;
-  background-size: 100% 100%; 
-}
-
 body
 { 
   overflow-y: scroll;
