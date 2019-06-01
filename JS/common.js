@@ -15,8 +15,14 @@ function load(){
 function load1(){
  
   var o = document.getElementsByClassName("row");
-  var x = screen.availWidth/2-12;
-  var y = x;
+  var rowX = screen.availWidth-10;
+  var rowY = screen.availWidth-10;
+  o.style.width = x + "px";
+  o.style.height = y + "px";
+
+  var o = document.getElementsByClassName("row");
+  var dX = screen.availWidth-10;
+  var dY = screen.availWidth-10;
   o.style.width = x + "px";
   o.style.height = y + "px";
 
