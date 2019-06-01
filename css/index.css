@@ -6,7 +6,7 @@ body
 
 div.row
 {
-  margin: 2px 5px;
+  margin: 2px auto;
   height: 213px;
   width: 342px;
   border: 0px solid #bebebe;
