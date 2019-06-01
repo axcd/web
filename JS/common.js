@@ -16,13 +16,13 @@ function load1(){
  
   var row = document.getElementsByClassName("row");
   var rowX = screen.availWidth-10;
-  var rowY = screen.availWidth-10;
+  var rowY = (screen.availWidth-10)/2-20;
   row.style.width = rowX + "px";
   row.style.height = rowY + "px";
 
   var img = document.getElementsByClassName("img");
-  var imgX = screen.availWidth-10;
-  var imgY = screen.availWidth-10;
+  var imgX = (screen.availWidth-10)/2-20;
+  var imgY = (screen.availWidth-10)/2-20;
   img.style.width = imgX + "px";
   img.style.height = imgY + "px";
 
