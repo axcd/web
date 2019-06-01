@@ -14,16 +14,16 @@ function load(){
 
 function load1(){
  
-  var o = document.getElementsByClassName("row");
+  var row = document.getElementsByClassName("row");
   var rowX = screen.availWidth-10;
   var rowY = screen.availWidth-10;
-  o.style.width = x + "px";
-  o.style.height = y + "px";
+  row.style.width = rowX + "px";
+  row.style.height = rowY + "px";
 
-  var o = document.getElementsByClassName("row");
-  var dX = screen.availWidth-10;
-  var dY = screen.availWidth-10;
-  o.style.width = x + "px";
-  o.style.height = y + "px";
+  var img = document.getElementsByClassName("img");
+  var imgX = screen.availWidth-10;
+  var imgY = screen.availWidth-10;
+  img.style.width = imgX + "px";
+  img.style.height = imgY + "px";
 
 }
