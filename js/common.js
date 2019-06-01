@@ -7,8 +7,8 @@ if(!result){
 
 function load(){
 
-  document.body.style.width = screen.availWidth + "px";
-  document.body.style.height = screen.availHeight + "px";
+  document.body.style.width = (screen.availWidth-4) + "px";
+  document.body.style.height = (screen.availHeight-4) + "px";
   
 }
 
