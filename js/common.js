@@ -14,12 +14,13 @@ function load(){
 
 function load1(){
  
-  var row = document.getElementsByClassName("row");
+  var rows = document.getElementsByClassName("row");
   var rowX = screen.availWidth-10;
   var rowY = (screen.availWidth-10)/2-20;
-  row.style.width = rowX + "px";
-  row.style.height = rowY + "px";
-
+  for (i = 0; i < rows.lenth; i++) {
+    row.style.width = rowX + "px";
+    row.style.height = rowY + "px";
+  }
   var img = document.getElementsByClassName("img");
   var imgX = (screen.availWidth-10)/2-20;
   var imgY = (screen.availWidth-10)/2-20;
