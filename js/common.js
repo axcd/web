@@ -12,8 +12,8 @@ function load(){
   window.outerwidth = screen.availWidth + "px";
   window.outerheight = screen.availHeight + "px";
 
-  document.body.style.width = screen.availWidth + "px";
-  document.body.style.height = screen.availHeight + "px";
+  //document.body.style.width = screen.availWidth + "px";
+  //document.body.style.height = screen.availHeight + "px";
   //window.alert(x.style.width);
   //window.alert(x.style.height);
 
