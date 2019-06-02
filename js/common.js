@@ -7,14 +7,14 @@ if(!result){
 
 $(document).ready(function(){
 
-  $("body").width(320).height(320);
+  $("body").height(screen.availHeight-50);
 
 });
 
 function load(){
 
   //document.body.style.width = (screen.availWidth-12) + "px";
-  document.body.style.height = (screen.availHeight-50) + "px";
+  //document.body.style.height = (screen.availHeight-50) + "px";
   
 }
 
