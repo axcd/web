@@ -5,6 +5,12 @@ if(!result){
   location.href = "https://axcd.github.io/web/403";
 };
 
+$(document).ready(function(){
+
+  $("body").width(320).height(320);
+
+});
+
 function load(){
 
   //document.body.style.width = (screen.availWidth-12) + "px";
