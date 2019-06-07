@@ -14,7 +14,7 @@ function load(){
 function loadLayout(){
  
   var rows = document.getElementsByClassName("row");
-  var rowX = document.body.clientWidth;
+  var rowX = document.body.clientWidth-10;
   var rowY = document.body.clientWidth/2+26;
 
   for (i = 0; i < rows.lenth; i++) {
